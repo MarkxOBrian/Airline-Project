@@ -1,0 +1,106 @@
+<!doctype html>
+
+
+<head>
+<title>Airline Login</title>
+<link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+
+<style type="text/css">
+    body{
+    background: lavender;
+  }
+
+  form{
+    margin-top: 7%;
+    width:20%;
+    height: 150px;
+    padding-top: 1%;
+    padding-bottom:9%;
+  }
+  input{
+  width:70%;
+
+  }
+  form{
+
+    font-weight: bold;
+    font-weight: "Times New Roman",serif;
+    width:100%;
+    background-color: white;
+
+  }
+  .div{
+    margin-top: 10%;
+    background-color: white;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 5px;
+    width: 30em;
+    height: 40em;
+  }
+
+  .div_f{
+    margin-top: 10%;
+    background-color: white;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 5px;
+    width: 30em;
+    height: 20em;
+  }
+
+  #submit{
+    color: red;
+    border-style: solid 2px;
+    border-radius: 2px;
+    background-color: #000000;
+    font-size: +1.5;
+    width:100px;
+    height: 30px;
+  }
+
+  </style>
+<script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/06D32C92-67AB-7641-91C9-5A8A624DFFD3/main.js" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="http://gc.kis.v2.scr.kaspersky-labs.com/F5DB006D-7254-3B4D-8603-E8CBF3CF95DA/abn/main.css"/></head>
+
+<body>
+
+
+<div id="content10" class="div">
+    <header>
+      <h1><a href="index.html">Scorpion<span> Airlines</span></a></h1>
+        <h2><font size="4">Online Flight Booking System</font></h2>
+    </header>
+    <nav>
+      <ul>
+          <li class="start selected"><a href="index.html">Home</a></li>
+            <!--<li class=""><a href="#">Book Flight</a></li>
+            <li><a href="#">Cancel Flight</a></li>-->
+            <li><a href="flights.php">View Flights</a></li>
+            <li class="end"><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+ <center>
+    <div class="div_f">
+          <h3>Login Page</h3>
+          <form action="process.php" method="POST">
+            <p>To login, Enter valid username and password:</p>
+            <table border="0">
+                    <tr><td>Username: </td><td><input type="text" name="user" placeholder="Your Username" required /></td></tr>      
+                    <tr><td>Password: </td><td><input type="password" name="pass" placeholder="Ssh!! Password" required /></td></tr>
+            </table>
+            <button type="submit" id="submit" name="submit">Login</button>
+
+            <p>Don't have an Account? Please do 
+            <a href="register.html" class="button">Register</a>
+            </p>
+         </form>
+    </div>
+    <br>
+</center>
+
+
+</div>
+</body>
+</html>
